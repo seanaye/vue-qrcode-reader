@@ -25,7 +25,7 @@
     "build:browser": "cross-env NODE_ENV=production webpack --config config/webpack.config.browser.js --progress --hide-modules",
     "build:common": "cross-env NODE_ENV=production webpack --config config/webpack.config.common.js --progress --hide-modules",
     "lint": "eslint --ext .js,.vue src",
-    "postinstall": "cd ./node_modules/vue-qrcode-reader && npm install && npm run build"
+    "postinstall": "yarn install && yarn build"
   },
   "repository": "github:gruhn/vue-qrcode-reader",
   "bugs": "https://github.com/gruhn/vue-qrcode-reader/issues",
