@@ -60,6 +60,7 @@
   <a href="https://gruhn.github.io/vue-qrcode-reader/api/QrcodeStream.html">documentation</a> |
   <a href="https://gruhn.github.io/vue-qrcode-reader/demos/DecodeAll.html">live demos</a>
 </p>
+FORK: This forked version of the repo allows for exporting the decoding logic so that you can attach the logic to your own components.
 
 A set of Vue.js components, allowing you to detect and decode QR codes, without leaving the browser.
 
